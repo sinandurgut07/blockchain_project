@@ -1,0 +1,14 @@
+<odoo>
+    <menuitem
+            id="menu_blockchain"
+            name="Blockchain"
+            web_icon="blockchain,static/description/icon.png"
+            sequence="80"/>
+
+    <menuitem
+            name="Approve File"
+            parent="menu_blockchain"
+            action="blockchain_approval_file_action"
+            id="menu_approve_file" sequence="2"/>
+
+</odoo>

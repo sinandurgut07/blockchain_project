@@ -1,0 +1,35 @@
+<odoo>
+
+    <record id="blockchain_key_tree" model="ir.ui.view">
+        <field name="name">blockchain.key.tree</field>
+        <field name="model">blockchain.key</field>
+        <field name="arch" type="xml">
+            <tree string="Key">
+                <field name="public_key"/>
+                <field name="private_key"/>
+                <field name="user_id"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="blockchain_key_form" model="ir.ui.view">
+        <field name="name">blockchain.key.form</field>
+        <field name="model">blockchain.key</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="public_key"/>
+                        <field name="private_key"/>
+                        <field name="user_id"/>
+                        <field name="active"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

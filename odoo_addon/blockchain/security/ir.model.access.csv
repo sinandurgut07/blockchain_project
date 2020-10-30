@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_blockchain_approval_file_user,blockchain.approval_file,model_blockchain_approval_file,group_blockchain_user,1,1,1,1
+access_blockchain_approval_track_user,blockchain.approval_track,model_blockchain_approval_track,group_blockchain_user,1,1,1,1
+access_blockchain_key_user,blockchain.key,model_blockchain_key,group_blockchain_user,1,1,1,1
