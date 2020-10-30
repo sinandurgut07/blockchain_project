@@ -1,7 +1,7 @@
 # blockchain_project
 
 Bu uygulama SDÜ Lisansüstü Blockchain dersi için geliştirilmiştir.
-İşleyişi https://youtu.be/_8WTI0Nide8 linknde anlatılmıştır.
+İşleyişi https://youtu.be/_8WTI0Nide8 linkinde anlatılmıştır.
 
 Dosya onayı isteyen bir kullanıcı dosyayı ve onaylaması gereken kişileri seçip onaya göndermektedir. Onay süreci blockchain ile saklanmaktadır.
 Kayıtta herhangibir değişiklik olması durumunda kanıt olarak blockchain yapısı kullanılacaktır. Onay sürecinin güvenilirliğini sağlamak hedeflenmiştir. 
