@@ -14,8 +14,14 @@ Bu tarafta Odoo frameworkü ile bir modül geliştirilmiştir.
 Geliştirilen modülde videoda da görüleceği gibi kullanıcı arayüzleri ayarlanmıştır. Kullanıcı dosyayı ekleyip onaylayacak kişileri seçmektedir. Ardından onaya göndermektedir.
 Onay sürgüsündeki kişiler onayla yada rededetme işlemi yaptıklarında Madenci Bekleniyor statüsüne gelmektedir. Burada blockchain yapısının ilgili kayıtları mine etmesi beklenmektedir.
 
+Çalıştırmak için odoo frameworkü kurulmalı ve konfigrasyon dosyasındaki addons klasörleri arasına "odoo_addon" dosyası verilmelidir. Bunun ardından odoo içerisinde app kısmından modülü yüklemek yeterlidir. Admin kullanıcısına gerekli yetkiler verilecek şekilde ayarlanmıştır. 
+
 2. Blockchain yapısı:(5000 portu kullanılmalıdır.)
 https://github.com/adilmoujahid/blockchain-python-tutorial 
 Yukarıdaki linkteki uygulama yeni kurguya göre düzenlenmiştir. Yeni yapıda alıcı yerine bizim uygulamamızdaki veriler saklanmaktadır. 0 değeri reddedildi 1 değeri onaylandı anlamına gelmektedir.
+Çalıştırmak için dosya dizini içerisinde :
+python blockchain.py -p 5000 komutunu çalıştırmak yeterlidir.
 
-2 uygulama aralarında http POST ile haberleşmektedir.
+2 uygulama aralarında http POST ile haberleşmektedir. Portlar hardcoded yazıldığı için yukarıda belirtilen portlarda çalıştırmak önemlidir!
+
+
